@@ -303,7 +303,7 @@ blockquote {
 	padding: 8px 15px;
 	font-size: 14px;
 	line-height: 1.42857143;
-	min-width: 160px;
+	min-width: 80px;
 	text-align: center;
 	border-radius: 0;
 	text-transform: uppercase;
@@ -402,6 +402,25 @@ blockquote {
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 300;
+}
+
+.nav-pills-networking > li.active > a,
+.nav-pills-networking > li.active > a:hover,
+.nav-pills-networking > li.active > a:focus,
+.nav-pills-networking > li > a:hover {
+	background-color: #55acee;
+	border-color: #55acee;
+	color: #ffffff;
+}
+.nav-pills-networking > li > a {
+	border-radius: 0;
+	padding: 8px 20px;
+	border: 1px solid #cacaca;
+	color: #000000;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 300;
+	background-color: #ffffff;
 }
 
 /* Forms
@@ -643,7 +662,21 @@ textarea {
 .filters .nav-pills > li + li {
 	margin-left: 0px;
 }
+.filters .nav-pills-networking > li {
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+.filters .nav-pills-networking > li + li {
+	margin-left: 0px;
+}
 .text-center.filters .nav-pills > li {
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	display: inline-block;
+	float: none;
+}
+.text-center.filters .nav-pills-networking > li {
 	margin-right: 2px;
 	margin-left: 2px;
 	margin-bottom: 2px;
@@ -664,6 +697,10 @@ textarea {
 }
 @media (max-width:480px) {
 	.filters .nav-pills > li {
+		width: 100%;
+		display: block;
+	}
+	.filters .nav-pills-networking > li {
 		width: 100%;
 		display: block;
 	}
