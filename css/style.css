@@ -125,7 +125,7 @@ blockquote {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-<<<<<<< HEAD
+
 * {box-sizing:border-box}
 
 
@@ -156,7 +156,7 @@ blockquote {
 	top: 40%;
 	width: 100%;
 	z-index: 2;
->>>>>>> parent of ae4a8f9... Update style.css
+
 }
 .subfooter {
 	background-color: #fafafa;
