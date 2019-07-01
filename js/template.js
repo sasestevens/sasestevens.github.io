@@ -11,10 +11,7 @@
 	$(document).ready(function(){
 	
 		$(".banner-image").backstretch('images/banner.jpg');
-<<<<<<< HEAD
-		
-=======
->>>>>>> parent of 203d69d... umm
+
 		
 		// Fixed header
 		//-----------------------------------------------

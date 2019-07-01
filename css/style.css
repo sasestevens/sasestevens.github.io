@@ -136,14 +136,10 @@ blockquote {
 	vertical-align: middle;
 	min-height: 100%;
 	width: 100%;
-<<<<<<< HEAD
 	display
 }
 
-=======
-}
->>>>>>> parent of 203d69d... umm
-.banner:after {
+.banner:after{
 	position: absolute;
 	top: 0;
 	left: 0;
