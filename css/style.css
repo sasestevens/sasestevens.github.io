@@ -62,7 +62,7 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #A32638;
+	color: #1778c2;
 }
 .text-colored {
 	color: #55acee;
@@ -132,7 +132,7 @@ blockquote {
 	position: relative;
 	color: #fff;
 }
-.banner-image {
+.banner-image{
 	vertical-align: middle;
 	min-height: 100%;
 	width: 100%;
