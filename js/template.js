@@ -7,6 +7,7 @@
  * File Description: Initializations of plugins 
  */
 
+
 (function($){
 	$(document).ready(function(){
 	
@@ -112,3 +113,5 @@
 
 	}); // End document ready
 })(this.jQuery);
+
+
